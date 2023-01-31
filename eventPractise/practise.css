@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.rgbBox{
+    color: white;
+    background-color: grey;
+    width: 300px;
+    text-align: center;
+    height: 34px;
+    border-radius: 10px;
+}
+h3{
+    padding-top: 5px;
+}
+.btn button{
+    width: 200px;
+    margin: 10px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;   
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: aliceblue;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}

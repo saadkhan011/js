@@ -1,0 +1,51 @@
+// let math = +prompt("Enter the total number in math");
+// let English = +prompt("Enter the total number in English");
+// let Urdu = +prompt("Enter the total number in Urdu");
+// let obtMath = +prompt("Enter the obtained number in math");
+// let obtEnglish = +prompt("Enter obtained the number in English");
+// let obtUrdu = +prompt("Enter the obtained number in Urdu");
+// let perEnglish = (obtEnglish/English)*100;
+// let perMath = (obtMath/math)*100;
+// let perUrdu = (obtUrdu/Urdu)*100;
+// console.log(perEnglish);
+// console.log(perUrdu);
+// console.log(perMath);
+
+
+"use strict";
+console.log(3**3);
+console.log(2**0.5);
+let index = "   Hello World ";
+console.log(index[4]);
+console.log(index.slice(2,7));
+console.log(index.slice(2));
+console.log(index.trim());
+console.log(index.toLowerCase());
+console.log(index.toUpperCase());
+index = String(index);
+console.log(typeof index);
+index = Number(index);
+console.log(typeof index);
+let string = "saad";
+console.log("Hi my name is "+ string);
+console.log(`Hi my name is ${string}`);
+let array = ["saad", "jawad", "Ahmad"];
+array.push("Omar");
+console.log(array);
+let get;
+get = array.pop();
+console.log(get);
+console.log(array.shift());
+array.unshift("Owais");
+console.log(array);
+
+let array2;
+array2 = [...array];
+console.log(array2);
+let array3 = [].concat(array);
+console.log(array3);
+let array4 = array.slice(0);
+array3.push("saad");
+console.log(array3);
+let array6 = [].concat(array, array3)
+console.log(array6);

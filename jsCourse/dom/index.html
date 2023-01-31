@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- we will use defer because it has some benfits then async  -->
+  <!-- <script src="dom1.js" async></script> -->
+  <!-- <script src="dom2.js" async></script> -->
+  <!-- <script src="dom3.js" async></script> -->
+  <script src="dom5.js" async></script>
+  <title>My Website</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index">Home</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="contact">Contact</a></li>
+      </ul>
+      <div class="logo">
+        <h2>Website</h2>
+      </div>
+    </nav>
+    <div class="header-txt todo">
+      <h2>Manage your task <span style="display: none;">Hello world</span></h2>
+      <button class="btn">Learn more</button>
+    </div>
+  </header>
+  <section id="todo-list">
+    <h1>Your Plan for today</h1>
+    <form id="totoForm" action="">
+      <div class="searchBox">
+        <input type="text" name=""  placeholder="    Add todo">
+        <input type="submit" value="Add todo" class="btn">
+      </div>
+    </form>
+    <ul class="todoList">
+    </ul>
+  </section>
+  <main>
+    <section id="contact">
+      <h3>Sign up</h3>
+      <div class="item">
+        <form action="" class="signup-form">
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password">
+          </div>
+          <div class="form-group">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email">
+          </div>
+          <div class="form-group">
+            <label for="email">About Yourself</label>
+            <textarea name="about" id="" cols="30" rows="10"></textarea>
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+</body>
+
+</html>

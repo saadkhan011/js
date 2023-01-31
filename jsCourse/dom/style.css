@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding:  0;
+  box-sizing: border-box;
+}
+header{
+  background-image: url("bg-image.jpg");
+  background-size: cover;
+  color: white;
+}
+.logo{
+  font-size: 3.7vmin;
+}
+nav{
+  padding: 30px 60px;
+}
+nav ul{
+  float: right;
+  display: flex;
+  list-style: none;
+  font-size: 3.4vmin;
+  margin-top: 10px;
+}
+nav ul li{
+  margin: 0 30px;
+}
+.header-txt{
+  text-align: center;
+  align-items: center;
+  font-size: 4vmin;
+  padding: 80px 0 150px 0;
+  line-height: 2;
+}
+.btn{
+  width: 120px;
+  height: 47px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+}
+h1{
+  text-align: center;
+  font-size: 5vmin;
+  margin: 40px;
+}
+#todo-list form{
+  text-align: center;
+}
+.searchBox input[type=text]{
+  width: 60%;
+  height: 40px; 
+  font-size: 1rem;
+  border: 3px solid black;
+}
+.searchBox input[type=submit]{
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  margin: 0 20px;
+  width: 20%;
+}
+#contact{
+  width: 80%;
+  background-color: rgba(128, 128, 128, 0.183);
+  border:  2px solid black;
+  margin: 7rem auto 0 auto;
+  font-size: 1.2rem;
+}
+.item{
+  width: 100%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+.form-group label{
+  display: block;
+  width: 70%;
+  margin: 0 auto 0 auto;
+  text-align: start;
+  line-height: 2;
+}
+textarea{
+  width: 70%;
+  border-radius: 3px;
+} 
+.form-group input{
+  width: 70%;
+  height: 35px;
+  border-radius: 3px;
+}
+#contact h3{
+  font-size: 1.8rem;
+  padding: 20px;
+  text-align: center;
+}
+.bg_dark{
+  color: aliceblue;
+  background-color: rgb(59, 44, 72);
+}
+.todoList{
+  width: 75%;
+  margin: 0 auto 0 auto;
+  margin-top: 15px;
+  color: white;
+  font-size: 1.5rem;
+}
+.todo1{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  margin: 10px;
+}
+.todo1 span{
+  flex-grow: 2;
+  margin: 10px 5px ;
+}
